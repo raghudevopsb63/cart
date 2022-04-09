@@ -6,7 +6,9 @@ pipeline {
     // For Each Commit
     stage('Lint Checks') {
       steps {
-        sh ''
+        sh '''
+          ~/node_modules/jslint/bin/jslint.js server.js
+        '''
       }
     }
 
