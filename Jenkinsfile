@@ -1,3 +1,7 @@
+@Library('roboshop-shared-library@main') _
+
+sample.info 'Starting'
+
 pipeline {
   agent any
 
