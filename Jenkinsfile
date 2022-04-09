@@ -9,7 +9,7 @@ pipeline {
     stage('Lint Checks') {
       steps {
         script {
-          sample.info 'Starting'
+          sample.info('Starting', 'google.com')
         }
         sh '''
           # We commented this because devs gonna check the failures.
