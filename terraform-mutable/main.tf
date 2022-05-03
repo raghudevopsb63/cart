@@ -1,5 +1,5 @@
 module "cart" {
-  source    = "./vendor/modules/app"
-  COMPONENT = var.COMPONENT
+  source = "./vendor/modules/app"
+  //COMPONENT = var.COMPONENT
 }
 
