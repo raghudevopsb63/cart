@@ -80,4 +80,5 @@ tolerations: []
 affinity: {}
 
 configMap:
-  enabled: false
+  enabled: true
+
